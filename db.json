@@ -1,152 +1,212 @@
 {
-	"BAZZA,Christchurch": {
+	"Sonny,Hamilton": {
 		"breed": "Male Mixed Breed",
-		"age": "Approx. 5 months old",
-		"location": "Christchurch"
+		"age": "Approx. 8 months old",
+		"location": "Hamilton",
+		"link": "https://www.spca.nz/adopt/animal/521476/sonny?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/557170/15"
 	},
 	"Knox,Christchurch": {
 		"breed": "Male Mixed Breed",
 		"age": "Approx. 5 months old",
-		"location": "Christchurch"
+		"location": "Christchurch",
+		"link": "https://www.spca.nz/adopt/animal/520811/knox?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/589077/15"
 	},
 	"Chai,Hamilton": {
 		"breed": "Male Mixed Breed",
 		"age": "Approx. 4 months old",
-		"location": "Hamilton"
+		"location": "Hamilton",
+		"link": "https://www.spca.nz/adopt/animal/522964/chai?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/570005/15"
 	},
 	"Miharo,Kerikeri": {
 		"breed": "Male Mixed Breed",
 		"age": "9 months old",
-		"location": "Kerikeri"
+		"location": "Kerikeri",
+		"link": "https://www.spca.nz/adopt/animal/523528/miharo?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/579171/15"
 	},
 	"Gus,Kaitaia": {
 		"breed": "Male Mixed Breed",
 		"age": "10 months old",
-		"location": "Kaitaia"
+		"location": "Kaitaia",
+		"link": "https://www.spca.nz/adopt/animal/519180/gus?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/578968/15"
 	},
 	"Luke,Whakatane": {
 		"breed": "Male Mixed Breed",
 		"age": "4 months old",
-		"location": "Whakatane"
+		"location": "Whakatane",
+		"link": "https://www.spca.nz/adopt/animal/524864/luke?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/589904/15"
 	},
 	"Razz,Auckland": {
 		"breed": "Male Mixed Breed",
 		"age": "10 months old",
-		"location": "Auckland"
+		"location": "Auckland",
+		"link": "https://www.spca.nz/adopt/animal/530145/razz?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/594015/15"
 	},
 	"George ,Whanganui": {
 		"breed": "Male Mixed Breed",
 		"age": "Approx. 3 months old",
-		"location": "Whanganui"
+		"location": "Whanganui",
+		"link": "https://www.spca.nz/adopt/animal/530401/george-?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/585683/15"
 	},
 	"Banjo,Palmerston North": {
 		"breed": "Male Mixed Breed",
 		"age": "9 months old",
-		"location": "Palmerston North"
+		"location": "Palmerston North",
+		"link": "https://www.spca.nz/adopt/animal/532790/banjo?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/585938/15"
 	},
 	"Blaze,Palmerston North": {
 		"breed": "Male Mixed Breed",
 		"age": "9 months old",
-		"location": "Palmerston North"
+		"location": "Palmerston North",
+		"link": "https://www.spca.nz/adopt/animal/532791/blaze?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/585935/15"
 	},
 	"Bowie,Wellington": {
 		"breed": "Male Mixed Breed",
 		"age": "Approx. 10 months old",
-		"location": "Wellington"
+		"location": "Wellington",
+		"link": "https://www.spca.nz/adopt/animal/527584/bowie?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/587134/15"
 	},
 	"Scoota,Kaitaia": {
 		"breed": "Male Mixed Breed",
 		"age": "2 months old",
-		"location": "Kaitaia"
+		"location": "Kaitaia",
+		"link": "https://www.spca.nz/adopt/animal/532857/scoota?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/588619/15"
 	},
 	"Little Jimmy,Kaitaia": {
 		"breed": "Male Mixed Breed",
 		"age": "2 months old",
-		"location": "Kaitaia"
+		"location": "Kaitaia",
+		"link": "https://www.spca.nz/adopt/animal/532198/little-jimmy?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/588971/15"
 	},
 	"Diablo,New Plymouth": {
 		"breed": "Male Mixed Breed",
 		"age": "2 months old",
-		"location": "New Plymouth"
+		"location": "New Plymouth",
+		"link": "https://www.spca.nz/adopt/animal/526815/diablo?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/590276/15"
 	},
 	"Shepherd,New Plymouth": {
 		"breed": "Male Mixed Breed",
 		"age": "2 months old",
-		"location": "New Plymouth"
+		"location": "New Plymouth",
+		"link": "https://www.spca.nz/adopt/animal/526816/shepherd?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/590295/15"
 	},
 	"Rex,Palmerston North": {
 		"breed": "Male Mixed Breed",
 		"age": "8 months old",
-		"location": "Palmerston North"
+		"location": "Palmerston North",
+		"link": "https://www.spca.nz/adopt/animal/534045/rex?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/590739/15"
 	},
 	"John Boy,Whakatane": {
 		"breed": "Male Mixed Breed",
 		"age": "2 months old",
-		"location": "Whakatane"
+		"location": "Whakatane",
+		"link": "https://www.spca.nz/adopt/animal/533393/john-boy?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/590839/15"
 	},
 	"Jason (walton),Whakatane": {
 		"breed": "Male Mixed Breed",
 		"age": "2 months old",
-		"location": "Whakatane"
+		"location": "Whakatane",
+		"link": "https://www.spca.nz/adopt/animal/533394/jason-walton?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/591422/15"
 	},
 	"Duke,Gisborne": {
 		"breed": "Male Mixed Breed",
 		"age": "Approx. 9 months old",
-		"location": "Gisborne"
+		"location": "Gisborne",
+		"link": "https://www.spca.nz/adopt/animal/532568/duke?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/591704/15"
 	},
 	"Timmy,Napier": {
 		"breed": "Male Mixed Breed",
 		"age": "7 months old",
-		"location": "Napier"
+		"location": "Napier",
+		"link": "https://www.spca.nz/adopt/animal/533302/timmy?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/591596/15"
 	},
 	"Bear,Wellington": {
 		"breed": "Male Mixed Breed",
 		"age": "Approx. 11 months old",
-		"location": "Wellington"
+		"location": "Wellington",
+		"link": "https://www.spca.nz/adopt/animal/532635/bear?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/592098/15"
 	},
 	"Bali,Wellington": {
 		"breed": "Male Mixed Breed",
 		"age": "Approx. 3 months old",
-		"location": "Wellington"
+		"location": "Wellington",
+		"link": "https://www.spca.nz/adopt/animal/533410/bali?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/592140/15"
 	},
 	"George ,Wellington": {
 		"breed": "Male Mixed Breed",
 		"age": "Approx. 2 months old",
-		"location": "Wellington"
+		"location": "Wellington",
+		"link": "https://www.spca.nz/adopt/animal/531777/george-?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/592144/15"
 	},
 	"Bhat/toffee,Whakatane": {
 		"breed": "Male Mixed Breed",
 		"age": "4 months old",
-		"location": "Whakatane"
+		"location": "Whakatane",
+		"link": "https://www.spca.nz/adopt/animal/527895/bhat-toffee?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/592151/15"
 	},
 	"Banjo,Wellington": {
 		"breed": "Male Mixed Breed",
 		"age": "Approx. 6 months old",
-		"location": "Wellington"
+		"location": "Wellington",
+		"link": "https://www.spca.nz/adopt/animal/532865/banjo?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/592158/15"
 	},
 	"Spotty,Napier": {
 		"breed": "Male Mixed Breed",
 		"age": "Approx. 7 months old",
-		"location": "Napier"
+		"location": "Napier",
+		"link": "https://www.spca.nz/adopt/animal/527021/spotty?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/592637/15"
 	},
 	"Ernie,Rotorua": {
 		"breed": "Male Mixed Breed",
 		"age": "Approx. 2 months old",
-		"location": "Rotorua"
+		"location": "Rotorua",
+		"link": "https://www.spca.nz/adopt/animal/533574/ernie?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/592767/15"
 	},
 	"Mana,Whanganui": {
 		"breed": "Male Mixed Breed",
 		"age": "5 months old",
-		"location": "Whanganui"
+		"location": "Whanganui",
+		"link": "https://www.spca.nz/adopt/animal/533919/mana?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/593802/15"
 	},
 	"Rubble,Auckland": {
 		"breed": "Male Mixed Breed",
 		"age": "3 months old",
-		"location": "Auckland"
+		"location": "Auckland",
+		"link": "https://www.spca.nz/adopt/animal/534844/rubble?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/594019/15"
 	},
 	"Cobra,Palmerston North": {
 		"breed": "Male Mixed Breed",
 		"age": "2 months old",
-		"location": "Palmerston North"
+		"location": "Palmerston North",
+		"link": "https://www.spca.nz/adopt/animal/533907/cobra?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1",
+		"img": "https://www.spca.nz/Images/Assets/593957/15"
 	}
 }

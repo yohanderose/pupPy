@@ -2,11 +2,18 @@ import time
 import json
 import requests
 from bs4 import BeautifulSoup
-
+from login import email_addr, email_pwd
+import notify
 
 endpoint = 'https://www.spca.nz/adopt?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1'
+db_abspath = '/home/yohan/Documents/projects/puppies/db.json'
+recipients = [
+    'yohanderose@gmail.com',
+    'deroseclan@gmail.com',
+]
 
-current_db = json.loads(open('./db.json', 'r').read())
+current_db = json.loads(
+    open(db_abspath, 'r').read())
 new_db = {}
 
 log_str = ''
@@ -16,9 +23,13 @@ with open('/tmp/puppies.log', 'a') as f:
         f.write(time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()) + '\n')
 
         soup = BeautifulSoup(res.text, 'html.parser')
-        for card in soup.find_all('a', {'class': 'card-link--adopt'}):
+        for card in soup.find_all('a', {'class': 'card-link--adopt'}, href=True):
             try:
                 name = card.find('h3').text
+                link = 'https://www.spca.nz' + card['href']
+                img = 'https://www.spca.nz' + card.find(
+                    'figure', {'class': 'card-image'}).find('img')['data-src']
+
                 breed, age, location = [
                     field.text for field in card.find_all('h4')]
 
@@ -26,7 +37,7 @@ with open('/tmp/puppies.log', 'a') as f:
 
                 if new_db.get(key) == None:
                     new_db[key] = {'breed': breed,
-                                   'age': age, 'location': location}
+                                   'age': age, 'location': location, 'link': link, 'img': img}
                 else:
                     log_str += f'ERROR: Database already contains puppy named {name} in {location}'
             except Exception as e:
@@ -36,13 +47,23 @@ with open('/tmp/puppies.log', 'a') as f:
         set2 = set(current_db)
         new = list(set1 - set2)
         gone = list(set2 - set1)
+        msg = ''
         for puppy in gone:
             log_str += f'{puppy} has been adopted\n'
         for puppy in new:
             log_str += f'{puppy} has been added\n'
+            obj = new_db[puppy]
+            name = puppy.split(',')[0]
+            summary = f'{name} is a {obj["age"]} {obj["breed"]} in {obj["location"]}\n'
+            link = f'Link: {obj["link"]}\n'
+            msg += f'<p>{summary}</p>\n<p>{link}</p>\n<img src="{obj["img"]}">\n'
 
-        # TODO: update db.json with new_db
-        # json.dump(new_db, open('./db.json', 'w'))
+        if len(new) > 0:
+            for recipient in recipients:
+                notify.send_msg(recipient, msg, 'New SPCA Puppies',
+                                {'email': email_addr, 'password': email_pwd},  'smtp.gmail.com', 587)
+
+        json.dump(new_db, open(db_abspath, 'w'))
         f.write(log_str + '\n')
     else:
         f.write(f'ERROR: {res.status_code}' + '\n')
