@@ -1,0 +1,152 @@
+{
+	"BAZZA,Christchurch": {
+		"breed": "Male Mixed Breed",
+		"age": "Approx. 5 months old",
+		"location": "Christchurch"
+	},
+	"Knox,Christchurch": {
+		"breed": "Male Mixed Breed",
+		"age": "Approx. 5 months old",
+		"location": "Christchurch"
+	},
+	"Chai,Hamilton": {
+		"breed": "Male Mixed Breed",
+		"age": "Approx. 4 months old",
+		"location": "Hamilton"
+	},
+	"Miharo,Kerikeri": {
+		"breed": "Male Mixed Breed",
+		"age": "9 months old",
+		"location": "Kerikeri"
+	},
+	"Gus,Kaitaia": {
+		"breed": "Male Mixed Breed",
+		"age": "10 months old",
+		"location": "Kaitaia"
+	},
+	"Luke,Whakatane": {
+		"breed": "Male Mixed Breed",
+		"age": "4 months old",
+		"location": "Whakatane"
+	},
+	"Razz,Auckland": {
+		"breed": "Male Mixed Breed",
+		"age": "10 months old",
+		"location": "Auckland"
+	},
+	"George ,Whanganui": {
+		"breed": "Male Mixed Breed",
+		"age": "Approx. 3 months old",
+		"location": "Whanganui"
+	},
+	"Banjo,Palmerston North": {
+		"breed": "Male Mixed Breed",
+		"age": "9 months old",
+		"location": "Palmerston North"
+	},
+	"Blaze,Palmerston North": {
+		"breed": "Male Mixed Breed",
+		"age": "9 months old",
+		"location": "Palmerston North"
+	},
+	"Bowie,Wellington": {
+		"breed": "Male Mixed Breed",
+		"age": "Approx. 10 months old",
+		"location": "Wellington"
+	},
+	"Scoota,Kaitaia": {
+		"breed": "Male Mixed Breed",
+		"age": "2 months old",
+		"location": "Kaitaia"
+	},
+	"Little Jimmy,Kaitaia": {
+		"breed": "Male Mixed Breed",
+		"age": "2 months old",
+		"location": "Kaitaia"
+	},
+	"Diablo,New Plymouth": {
+		"breed": "Male Mixed Breed",
+		"age": "2 months old",
+		"location": "New Plymouth"
+	},
+	"Shepherd,New Plymouth": {
+		"breed": "Male Mixed Breed",
+		"age": "2 months old",
+		"location": "New Plymouth"
+	},
+	"Rex,Palmerston North": {
+		"breed": "Male Mixed Breed",
+		"age": "8 months old",
+		"location": "Palmerston North"
+	},
+	"John Boy,Whakatane": {
+		"breed": "Male Mixed Breed",
+		"age": "2 months old",
+		"location": "Whakatane"
+	},
+	"Jason (walton),Whakatane": {
+		"breed": "Male Mixed Breed",
+		"age": "2 months old",
+		"location": "Whakatane"
+	},
+	"Duke,Gisborne": {
+		"breed": "Male Mixed Breed",
+		"age": "Approx. 9 months old",
+		"location": "Gisborne"
+	},
+	"Timmy,Napier": {
+		"breed": "Male Mixed Breed",
+		"age": "7 months old",
+		"location": "Napier"
+	},
+	"Bear,Wellington": {
+		"breed": "Male Mixed Breed",
+		"age": "Approx. 11 months old",
+		"location": "Wellington"
+	},
+	"Bali,Wellington": {
+		"breed": "Male Mixed Breed",
+		"age": "Approx. 3 months old",
+		"location": "Wellington"
+	},
+	"George ,Wellington": {
+		"breed": "Male Mixed Breed",
+		"age": "Approx. 2 months old",
+		"location": "Wellington"
+	},
+	"Bhat/toffee,Whakatane": {
+		"breed": "Male Mixed Breed",
+		"age": "4 months old",
+		"location": "Whakatane"
+	},
+	"Banjo,Wellington": {
+		"breed": "Male Mixed Breed",
+		"age": "Approx. 6 months old",
+		"location": "Wellington"
+	},
+	"Spotty,Napier": {
+		"breed": "Male Mixed Breed",
+		"age": "Approx. 7 months old",
+		"location": "Napier"
+	},
+	"Ernie,Rotorua": {
+		"breed": "Male Mixed Breed",
+		"age": "Approx. 2 months old",
+		"location": "Rotorua"
+	},
+	"Mana,Whanganui": {
+		"breed": "Male Mixed Breed",
+		"age": "5 months old",
+		"location": "Whanganui"
+	},
+	"Rubble,Auckland": {
+		"breed": "Male Mixed Breed",
+		"age": "3 months old",
+		"location": "Auckland"
+	},
+	"Cobra,Palmerston North": {
+		"breed": "Male Mixed Breed",
+		"age": "2 months old",
+		"location": "Palmerston North"
+	}
+}
