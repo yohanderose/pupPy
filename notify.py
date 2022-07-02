@@ -1,9 +1,8 @@
+import os
 from login import email_addr, email_pwd
 
-# TODO: Add text functionality through spark or vodafone gateway
 
-
-def send_msg(destination, message, subject, sender_credentials, smtp_server, smtp_port) -> int:
+def send_msg(destination, message, subject, sender_credentials, smtp_server, smtp_port=587) -> int:
     """
     Send an SMS or email message from an email address via the specified gateway provider.
     :param destination: The destination number or email address.
@@ -68,4 +67,4 @@ def send_msg(destination, message, subject, sender_credentials, smtp_server, smt
 # to = 'yohanderose@gmail.com'
 
 # send_msg(to, 'test message', 'test subject',
-#          {'email': email_addr, 'password': email_pwd},  'smtp.gmail.com', 587)
+#          {'email': email_addr, 'password': email_pwd},  'smtp.yandex.com')

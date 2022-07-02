@@ -1,3 +1,4 @@
+import os
 import time
 import json
 import requests
@@ -5,19 +6,28 @@ from bs4 import BeautifulSoup
 from login import email_addr, email_pwd
 import notify
 
+# TODO:
+#     - (feat)Implement mongo or remote gist backend instead of local file
+#     - (feat)Add text functionality through spark or vodafone gateway
+#     - (docs)readme, comments and cleanup
+
 endpoint = 'https://www.spca.nz/adopt?species=dogs&centres=all&breed=all&size=all&animal_id=&gender=male&minAge=0&maxAge=1&pageNum=1'
-db_abspath = '/home/yohan/Documents/projects/puppies/db.json'
+db_path = os.path.join(os.path.dirname(
+    os.path.abspath(__file__)), 'db.json')
+
+
 recipients = [
+    # 'yohan.temp.dev@gmail.com',
+    # 'deroseclan@gmail.com',
     'yohanderose@gmail.com',
-    'deroseclan@gmail.com',
 ]
 
 current_db = json.loads(
-    open(db_abspath, 'r').read())
+    open(db_path, 'r').read())
 new_db = {}
 
 log_str = ''
-with open('/tmp/puppies.log', 'a') as f:
+with open('/tmp/puppies.log', 'a+') as f:
     res = requests.get(endpoint)
     if res.status_code == 200:
         f.write(time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()) + '\n')
@@ -61,11 +71,11 @@ with open('/tmp/puppies.log', 'a') as f:
         if len(new) > 0:
             for recipient in recipients:
                 notify.send_msg(recipient, msg, 'New SPCA Puppies',
-                                {'email': email_addr, 'password': email_pwd},  'smtp.gmail.com', 587)
+                                {'email': email_addr, 'password': email_pwd},  'smtp.yandex.com')
 
-        json.dump(new_db, open(db_abspath, 'w'))
+        json.dump(new_db, open(db_path, 'w'))
         f.write(log_str + '\n')
     else:
         f.write(f'ERROR: {res.status_code}' + '\n')
-
+    print(log_str)
     f.write('---' + '\n')
